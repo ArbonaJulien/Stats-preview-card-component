@@ -1,0 +1,143 @@
+
+.attribution { font-size: 11px; text-align: center; margin-top: 5px; }
+.attribution a { color: hsl(277, 64%, 61%); text-decoration: none; }
+
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+h1 strong {
+    color: hsl(277, 64%, 61%);
+}
+
+.card {
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: auto;
+    max-width: 1000px;
+    max-height: 450px;
+}
+
+.card-content {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+}
+
+.card-content-left {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    min-width: 300px;
+}
+
+.card-content-right {
+    display: flex;
+    position: relative;
+}
+
+.card-content-right-picture {
+    border-radius: 0 10px 10px 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, .5);
+    border-radius: 0 10px 10px 0;
+}
+
+.stats {
+    display: flex;
+    flex-grow: 2;
+    align-items: flex-end;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.stats-header {
+    color: hsl(0, 0%, 100%);;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.stats li p:not(.stats-header) {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 17px;
+    }
+
+    .card-content {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        position: unset;
+        max-height: unset;
+        margin: 40px 20px 35px 20px;
+    }
+    
+    .card-content-left {
+        min-width: unset;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .stats li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .card-content-right-picture {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        border-radius: 10px 10px 0 0;
+
+    }
+}
