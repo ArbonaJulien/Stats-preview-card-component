@@ -10,4 +10,4 @@ This is my solution for the challenge Stats-preview-card-component on Frontend M
 
 - Mobile version
 
-![Screeshot Mobile](screeshots/mobile.png)
+![Screeshot Mobile](screenshots/mobile.png)
