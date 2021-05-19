@@ -5,6 +5,9 @@ This is my solution for the challenge Stats-preview-card-component on Frontend M
 ## Screenshots
 
 - Desktop version
+
 ![Screenshot Desktop](screenshots/desktop.png)
 
 - Mobile version
+
+![Screeshot Mobile](screeshots/mobile.png)
