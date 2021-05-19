@@ -6,13 +6,13 @@ This is my solution for the challenge Stats-preview-card-component on Frontend M
 
 - Desktop version
 
-<p align="center">
+<p align="left">
   <img width="800px" height="auto" src="screenshots/desktop.png">
 </p>
 
 - Mobile version
 
-<p align="center">
+<p align="left">
   <img width="auto" height="600px" src="screenshots/mobile.png">
 </p>
 
