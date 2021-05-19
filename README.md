@@ -6,7 +6,9 @@ This is my solution for the challenge Stats-preview-card-component on Frontend M
 
 - Desktop version
 
-![Screenshot Desktop](screenshots/desktop.png)
+<p align="center">
+  <img width="460" height="300" src="screenshots/desktop.png">
+</p>
 
 - Mobile version
 
